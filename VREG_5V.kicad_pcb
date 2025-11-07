@@ -1028,7 +1028,7 @@
 			(net 5 "unconnected-(J1-Shield-Pad5)")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "1649a078-706b-4f49-b46d-071f11a7d94d")
+			(uuid "c2449106-31e9-4e2d-bd65-49ccfa3d7596")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.step"
@@ -4627,6 +4627,30 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 164.084 76.581 180)
+		(layer "F.SilkS")
+		(uuid "463775f6-f730-4c42-9e7d-b1800976041a")
+		(effects
+			(font
+				(size 0.333333 1)
+				(thickness 0.083333)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "7V~35V"
+		(at 170.688 76.454 180)
+		(layer "F.SilkS")
+		(uuid "72fc7cbf-4a43-400a-9dd1-4309758f83c9")
+		(effects
+			(font
+				(size 0.333333 1)
+				(thickness 0.083333)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
